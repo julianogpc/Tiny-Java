@@ -1,0 +1,9 @@
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+if x 5 != then
+  x := 5;
+  writeStr (Agora o valor de x e );
+  writeVar (x);
+endif
+endp

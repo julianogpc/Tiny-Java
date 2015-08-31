@@ -1,0 +1,12 @@
+writeStr(Entre com o numero de linhas: );
+read(n);
+for l := 1 to n do 
+  for i := 1 to n l - do
+    writeStr(\b);
+  endf
+  for i := 1 to 2 l * 1 - do
+    writeStr(*);
+  endf
+  writeln;
+endf
+endp

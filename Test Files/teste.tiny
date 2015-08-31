@@ -1,0 +1,61 @@
+x := 1;
+y := 10;
+z := x y < ;
+writeVar(z);
+writeln;
+z := x y > ;
+writeVar(z);
+writeln;
+z := x y != ;
+writeVar(z);
+writeln;
+z := x y = ;
+writeVar(z);
+writeln;
+z := x y + ;
+writeVar(z);
+writeln;
+z := x y - ;
+writeVar(z);
+writeln;
+z := x y * ;
+writeVar(z);
+writeln;
+z := x y / ;
+writeVar(z);
+writeln;
+writeStr(IF);
+writeln;
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+if x 5 > then
+  writeStr (x e maior que 5);
+else
+  writeStr (x e menor ou igual a 5);
+endif
+writeln;
+writeStr(FOR);
+writeln;
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+for i := 0 to x do
+  writeStr (O valor de i agora e:);
+  writeVar(i);
+  writeln;
+endf
+writeln;
+writeStr(WHILE);
+writeln;
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+i := 0;
+while i x < do
+  writeStr (O valor de i agora e:);
+  writeVar(i);
+  i := i 1 +;
+  writeln;
+endw
+endp

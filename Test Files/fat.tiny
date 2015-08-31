@@ -1,0 +1,14 @@
+writeStr(Entre com o valor de x:);
+read(x);
+writeln;
+z := x ;
+fat := 1 ;
+for y := 1 to z do
+fat := fat y * ;
+endf
+writeStr(Fatorial de);
+writeVar(x);
+writeStr(:);
+writeVar(fat);
+writeln;
+endp

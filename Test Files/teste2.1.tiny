@@ -1,0 +1,22 @@
+writeStr(Digite o valor de a );
+read(a);
+writeStr(Digite o valor de b );
+read(b);
+writeStr(Digite o valor de c );
+read(c);
+delta := b b * 4 a c * * - ;
+writeStr(Valor de delta: );
+writeVar(delta);
+writeln;
+x1 := 0 b - delta sqrt + 2 a * / ;
+x2 := 0 b - delta sqrt - 2 a * / ;
+writeStr(Valor de x1: );
+writeVar(x1);
+writeln;
+writeStr(Valor de x2: );
+writeVar(x2);
+endp
+
+testes
+1 6 5 (-1 e -5)
+1 5 4 (-1 e -4)

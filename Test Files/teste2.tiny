@@ -1,0 +1,15 @@
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+writeStr (O valor de x é:);
+writeVar (x);
+writeln;
+y := 3 x + ;
+writeStr (O valor de y = x + 3 é:);
+writeVar (y);
+writeln;
+y := 3 y x * +;
+writeStr (O valor de y * x + 3 é:);
+writeVar (y);
+writeln;
+endp

@@ -1,0 +1,9 @@
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+if x 5 > then
+writeStr (x e maior que 5);
+else
+writeStr (x e menor ou igual a 5);
+endif
+endp

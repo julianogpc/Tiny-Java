@@ -1,0 +1,9 @@
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+writeStr (O valor de x é:);
+writeVar (x);
+writeln;
+writeStr (O valor de y é:);
+writeVar (y);
+endp

@@ -1,0 +1,9 @@
+writeStr (Entre com o valor de x);
+read (x);
+writeln;
+for i := 0 to x do
+  writeStr (O valor de i agora e:);
+  writeVar(i);
+  writeln;
+endf
+endp
